@@ -1,0 +1,28 @@
+1620838149094	Move 'applicationContext.xml' to 'context'
+1620838170780	Copy file
+1620838199163	Rename resource 'dispatcher.xml'
+1620877605403	Move 'home.jsp' to 'jsp'
+1620909906639	Rename resource 'home.jsp'
+1620914727253	Delete element
+1620914855355	Copy compilation unit
+1620915070907	Delete element
+1620915780677	Move 'template' to 'webapp'
+1620915892664	Rename resource 'tagblib.jsp'
+1620915963244	Delete element
+1620916077017	Delete element
+1620917527811	Delete element
+1620918147715	Delete element
+1620918434185	Delete element
+1620918964666	Delete element
+1620920013914	Delete element
+1620920047786	Delete element
+1620983543506	Rename package 'com.laptrinhjavaweb.dao.ompl'
+1620983886930	Delete element
+1620984222972	Copy compilation unit
+1620984804057	Delete element
+1620984869693	Delete element
+1620986502992	Move 'new' to 'admin'
+1620987025637	Rename package 'com.laptrinhjavaweb.servlet'
+1621006389135	Move 'persistence.xml' to 'META-INF'
+1621043353647	Copy compilation unit
+1621055899861	Delete element

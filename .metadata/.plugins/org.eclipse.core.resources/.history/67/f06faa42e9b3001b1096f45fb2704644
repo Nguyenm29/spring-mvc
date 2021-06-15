@@ -1,0 +1,15 @@
+package com.laptrinhjavaweb;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class HomeController {
+	@RequestMapping("/hello")
+	public String hello() {
+		return "home";
+	}
+	
+	@RequestMapping("/goodbye")
+	public String goodbye()
+}

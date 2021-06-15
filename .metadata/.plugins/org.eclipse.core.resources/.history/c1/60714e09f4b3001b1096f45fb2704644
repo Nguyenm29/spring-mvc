@@ -1,0 +1,27 @@
+package com.laptrinhjavaweb;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.sun.java.swing.plaf.motif.resources.motif;
+
+@Controller
+public class HomeController {
+	@RequestMapping(value = "/hello", method = RequestMethod.GET)
+	public ModelAndView hello(Model m) {
+		ModelAndView mav = new ModelAndView("hello");
+		m.addAttribute("message", "hello spring");
+		return mav;
+	}
+	
+	@RequestMapping(value = "/goodbye", method = RequestMethod.GET)
+	public String goodbye(HttpServletRequest request, Model m) {
+		m.addAttribute("message", "goodbye spring");
+		return "goodbye";
+	}
+}

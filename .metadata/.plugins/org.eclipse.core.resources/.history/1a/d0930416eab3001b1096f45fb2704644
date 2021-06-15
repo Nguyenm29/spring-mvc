@@ -1,0 +1,21 @@
+package com.laptrinhjavaweb;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class HomeController {
+	@RequestMapping("/hello")
+	public String hello() {
+		return "home";
+	}
+	
+	@RequestMapping("/goodbye")
+	public String goodbye(HttpServletRequest request, Model m) {
+		m.addAttribute("message", "goodbye spring");
+		return "goodbye";
+	}
+}
